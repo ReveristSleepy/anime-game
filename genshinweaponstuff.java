@@ -69,30 +69,55 @@ public class genshinweaponstuff {
                     System.out.println("The ascension level you are trying to reach is invalid.\nProgram stopped.");
                 }
                 if (currentalevel==0) {
-                    
+                    System.out.println("you've got some farming to do, here's what you need: ");
+                    System.out.println(greenl1+" greens");
+                    System.out.println((bluel2+bluel3)+" blues");
+                    System.out.println((purplel4+purplel5)+" purples");
+                    System.out.println(goldl6+" golds");   
                 }
                 if (currentalevel==1) {
-                    
+                    System.out.println("you've got some farming to do, here's what you need: ");
+                    System.out.println("0 greens");
+                    System.out.println((bluel2+bluel3)+" blues");
+                    System.out.println((purplel4+purplel5)+" purples");
+                    System.out.println(goldl6+" golds");  
                 }
                 if (currentalevel==2) {
-                    
-                }
+                    System.out.println("you've got some farming to do, here's what you need: ");
+                    System.out.println("0 greens");
+                    System.out.println(bluel3+" blues");
+                    System.out.println((purplel4+purplel5)+" purples");
+                    System.out.println(goldl6+" golds");  
+                }   
                 if (currentalevel==3) {
-                    
+                    System.out.println("you've got some farming to do, here's what you need: ");
+                    System.out.println("0 greens");
+                    System.out.println("0 blues");
+                    System.out.println((purplel4+purplel5)+" purples");
+                    System.out.println(goldl6+" golds");  
                 }
                 if (currentalevel==4 && maxascension==4) {
                     System.out.println("You're already at max level");
                 }
                 if (currentalevel==4 && maxascension ==6) {
-                    
+                    System.out.println("you're getting close, here's what you need: ");
+                    System.out.println("0 greens");
+                    System.out.println("0 blues");
+                    System.out.println(purplel5+" purples");
+                    System.out.println(goldl6+" golds");  
                 }
                 if (currentalevel==5 ) {
-                    
+                    System.out.println("you're only 1 level away, here's what you need: ");
+                    System.out.println("0 greens");
+                    System.out.println("0 blues");
+                    System.out.println(" 0 purples");
+                    System.out.println(goldl6+" golds");  
                 }
                 if (currentalevel==6 ) {
                     System.out.println("You're already at max level");
                 }
             }
         }
+        s.close();
     }
 }
